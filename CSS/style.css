@@ -1,0 +1,126 @@
+/* Global style */
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.orange-color {
+  color: #FD6E0A;
+}
+
+.dark-1 {
+  color: #181818;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+.dark-3 {
+  color: #757575;
+}
+
+.btn-primary {
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+/* nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 230px;
+}
+
+.nav-title {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* Banner section style */
+
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  border: 1px solid tomato;
+
+
+}
+
+
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+  border: 1px solid tomato;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 800;
+}
+
+.banner-desc {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.banner-btn {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.banner-profile {
+  border: 1px solid tomato;
+
+}
+
+.banner-profile-picture {
+  width: 584px;
+  margin-bottom: -7px;
+
+}
