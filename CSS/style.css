@@ -18,6 +18,10 @@
   color: #FD6E0A;
 }
 
+.bg-orange-color {
+  background-color: #FFF8F3;
+}
+
 .dark-1 {
   color: #181818;
 }
@@ -122,5 +126,62 @@ nav ul li a {
 .banner-profile-picture {
   width: 584px;
   margin-bottom: -7px;
+
+}
+
+
+/* main section styling */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+/* about section style */
+
+.about-section {
+  padding: 130px 155px;
+  margin-top: 150px;
+  border-radius: 5px;
+
+  border: 1px solid tomato;
+
+}
+
+.about-section-content {
+  text-align: center;
+}
+
+
+.about-title {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.about-desc {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 30px;
+
+}
+
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.item-one {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.item-two {
+  font-weight: bold;
+  font-size: 20px;
 
 }
