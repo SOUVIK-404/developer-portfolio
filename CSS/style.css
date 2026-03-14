@@ -52,7 +52,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 230px;
+  margin: 0px 230px;
+  padding-top: 30px;
 }
 
 .nav-title {
@@ -82,7 +83,7 @@ nav ul li a {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  border: 1px solid tomato;
+
 
 
 }
@@ -94,7 +95,7 @@ nav ul li a {
   align-items: center;
   justify-content: space-between;
   margin: 0 35px 0 230px;
-  border: 1px solid tomato;
+
 }
 
 .banner-greeting {
@@ -118,10 +119,7 @@ nav ul li a {
   gap: 10px;
 }
 
-.banner-profile {
-  border: 1px solid tomato;
-
-}
+.banner-profile {}
 
 .banner-profile-picture {
   width: 584px;
@@ -145,7 +143,7 @@ main {
   margin-top: 150px;
   border-radius: 5px;
 
-  border: 1px solid tomato;
+
 
 }
 
@@ -194,7 +192,7 @@ main {
   margin-bottom: 130px;
 
 
-  border: 1px solid tomato;
+
 }
 
 .do-section-title {
@@ -216,7 +214,7 @@ main {
 }
 
 .skill {
-  border: 1px solid tomato;
+
   padding: 30px;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
@@ -242,9 +240,7 @@ main {
 /* Resume section style  */
 
 
-.resume {
-  border: 1px solid tomato;
-}
+.resume {}
 
 .resume-title {
   font-weight: bold;
@@ -283,4 +279,68 @@ main {
 
 .line {
   margin: 30px 0px;
+}
+
+/* footer section style */
+
+.footer {
+
+
+  margin-top: 130px;
+  padding: 130px 230px;
+
+}
+
+.footer-column {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.column-title {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 20px;
+
+
+}
+
+.column-desc {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.column-icon {
+  display: flex;
+  gap: 25px;
+}
+
+form input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 24px;
+
+}
+
+form input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.text-area {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
