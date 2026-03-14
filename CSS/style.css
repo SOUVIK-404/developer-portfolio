@@ -238,3 +238,49 @@ main {
   font-size: 16px;
   font-weight: normal;
 }
+
+/* Resume section style  */
+
+
+.resume {
+  border: 1px solid tomato;
+}
+
+.resume-title {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 30px;
+}
+
+.resume-sub-title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.resume-card-title {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 10px;
+
+}
+
+.resume-card-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.resume-card-desc {
+  font-size: 16px;
+}
+
+.line {
+  margin: 30px 0px;
+}
